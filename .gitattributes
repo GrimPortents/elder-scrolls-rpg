@@ -4,3 +4,6 @@
 
 # Images
 *.png binary
+
+# Else
+*.docx binary
