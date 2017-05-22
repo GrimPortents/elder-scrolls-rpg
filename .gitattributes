@@ -1,0 +1,6 @@
+# Basic LaTeX attributes
+*.tex text
+*.pdf binary
+
+# Images
+*.png binary

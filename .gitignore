@@ -1,0 +1,5 @@
+# Basic LaTex gitignore
+*.aux
+*.synctex.gz
+*.log
+*.out
