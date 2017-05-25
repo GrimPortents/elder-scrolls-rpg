@@ -4,6 +4,7 @@
 \usepackage{caption}
 \usepackage{floatrow}
 \usepackage{array}
+\usepackage{tabularx}
 
 \graphicspath{{images/}}
 
@@ -685,27 +686,105 @@ Now is the time to calculate your derived attributes. There are a lot of things 
 	\item $Magicka=2*Intelligence$.
 	\item $Stamina=Strength+Willpower+Agility+Endurance$.
 	\item You recover $(5+0.1Willpower)\%$ of your magicka per round.
-	\item You recover 30 stamina per round. This will increase with Athletics skill.
+	\item You recover 30 stamina per round. This rate increases with Athletics skill (see \textit{Chapter 2: Skills}.)
 	\item Your spell range is equal to your Willpower in feet. 
 	\item Your movement and damage bonuses are given by the following table.
 \end{itemize}
 
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
 \hline
 Attribute & 1--24 & 25--49 & 50--74 & 74--99 & 100\\ \hline
-Strength & -1d4 melee & +0 melee & +1d4 melee & +2d4 melee & +3d4 melee\\ \hline
-Agility & -1d4 ranged & +0 ranged & +1d4 ranged & +2d4 ranged & +3d4 ranged\\ \hline
+Strength & +0 melee & +1 melee & +2 melee & +3 melee & +4 melee\\ \hline
+Agility & +0 ranged & +1 ranged & +2 ranged & +3 ranged & +4 ranged\\ \hline
 Speed & 20 ft & 30 ft & 40 ft & 50 ft & 60 ft\\ \hline
 
-\end{tabular}\\~\\
+\end{tabularx}\\~\\
 
 \section{Calculate Skill Points.}
 By now, you should have all the information you need to finalize your skill points. The base value of any given skill is 5, so be sure to add all relevant bonuses to that. For example, a Breton Mage begins with a Conjuration of 5(base)+10(racial)+5(magic class)+20(major skill)=40. To learn more about what exactly the skills do, move on to chapter 2. In any case, your character is now complete! Congratulations!
 
 \chapter{Skills}
 
-There are 21 skills in the Elder Scrolls Tabletop RPG. Each one comes with a specialization (combat, magic or stealth), a governing attribute (contributes to attribute increases when you level up), and a set of mastery perks you get automatically when you reach certain levels. In addition to providing mastery perks, skill levels determine your proficiency with using the skill and may provide some bonuses. Thus, it's worth boosting stats even if you don't get the next mastery perk.
+There are 21 skills in the Elder Scrolls Tabletop RPG. Each one comes with a specialization (combat, magic or stealth), a governing attribute (contributes to attribute increases when you level up), and a set of mastery perks you get automatically when you reach certain skill levels. In addition to providing mastery perks, skill levels determine your proficiency with using the skill and may provide some bonuses such as spell cost reduction. Thus, it's worth boosting stats even if you don't get the next mastery perk. These bonuses will be covered in their respective chapters. In this chapter, you'll find a list of all the skills along with their specializations, governing attributes, meanings and mastery perks.
 
 \section{Skill List}
+
+\begin{tabular}{p{0.2\textwidth}|p{0.2\textwidth}|p{0.15\textwidth}|p{0.45\textwidth}}
+
+Skill & Specialization & Attribute & Uses\\ \hline
+Acrobatics & Stealth & Speed & Jumping, climbing and dodging.\\ \hline
+Alchemy & Magic & Intelligence & Crafting potions and poisons.\\ \hline
+Alteration & Magic & Willpower & Casting spells to change physical properties.\\ \hline
+Armorer & Combat & Endurance & Repairing and crafting equipment.\\ \hline
+Athletics & Combat & Speed & Sprinting, swimming and stamina recovery.\\ \hline
+Blade & Combat & Strength & Attacking with bladed weapons.\\ \hline
+Block & Combat & Endurance & Blocking attacks with weapons and shields.\\ \hline
+Blunt & Combat & Strength & Attacking with blunt weapons.\\ \hline
+Conjuration & Magic & Intelligence & Conjuring minions and equipment from Oblivion.\\ \hline
+Destruction & Magic & Willpower & Casting spells to harm foes directly.\\ \hline
+Hand-to-Hand & Combat & Strength & Attacking with fists.\\ \hline
+Heavy Armor & Combat & Endurance & Effectively using heavy armor.\\ \hline
+Illusion & Magic & Personality & Magically manipulating sense and emotion.\\ \hline
+Light Armor & Stealth & Speed & Effectively using light armor.\\ \hline
+Marksman & Stealth & Agility & Attacking with ranged weapons.\\ \hline
+Mercantile & Stealth & Personality & Haggling.\\ \hline
+Mysticism & Magic & Intelligence & Casting Mysticism spells.\\ \hline
+Restoration & Magic & Willpower & Fortifying stats and healing.\\ \hline
+Security & Stealth & Agility & Bypassing locks and other security.\\ \hline
+Sneak & Stealth & Agility & Moving silently and striking unseen.\\ \hline
+Speechcraft & Stealth & Personality & Speaking persuasively.\\
+\end{tabular}
+
+\newpage
+\section{Mastery Perks}
+
+Skill levels are grouped into five tiers: Novice (0-24), Apprentice (25-49), Journeyman (50-74), Expert (75-99) and Master (100). Upon achieving each tier, you gain access to a special mastery perk. The following table lists each skill's mastery perks.\\
+
+\begin{tabular}{p{0.15\textwidth}|p{0.12\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.13\textwidth}|p{0.15\textwidth}}
+
+Skill & Novice & Apprentice & Journeyman & Expert & Master\\ \hline
+Acrobatics & You can attempt to dodge melee attacks for 10 stamina. & Dodging no longer costs stamina. & Non-dodge acrobatics checks in combat cost 30 feet of movement instead of an action. & Non-dodge acrobatics checks in combat cost 15 feet of movement. & Penalty dice due to consecutive dodges are only imposed beginning on your third dodge of the round.\\ \hline
+Alchemy & You know the first effect of alchemical reagents. & You know the first two effects of alchemical reagents. & You know the first three effects of alchemical reagents. & You know all effects of alchemical reagents. & You can create potions from single ingredients.\\ \hline
+Alteration & Novice Alteration spells. & Apprentice Alteration spells. & Journeyman Alteration spells. & Expert Alteration spells. & Master Alteration spells.\\ \hline
+Armorer & PLACEHOLDER & PLACEHOLDER & PLACEHOLDER & PLACEHOLDER & PLACEHOLDER\\
+
+\end{tabular}
+
+\begin{tabular}{p{0.15\textwidth}|p{0.12\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.13\textwidth}|p{0.15\textwidth}}
+
+Skill & Novice & Apprentice & Journeyman & Expert & Master\\ \hline
+Athletics & Can sprint for double movement (30 stamina, action). & Your swim speed is equal to half your normal movement. & Stamina recovers 40 points per round. & Stamina recovers 50 points per round. & Stamina recovers 60 points per round.\\ \hline
+Blade & Blade technique: Power Attack & Blade technique: Standing Strike & Blade Technique: Flanking Strike & Blade Technique: Sweeping Attack & Blade Technique: Dizzying Blow\\ \hline
+Block & You can attempt to block melee attacks for 10 stamina. & Blocking no longer costs stamina. & On an extreme success, the attacker suffers recoil. & On a success, 5\% chance of disarming attacker.\\ \hline
+Blunt & Blunt technique: Power Attack & Blunt technique: Standing Strike & Blunt Technique: Flanking Strike & Blunt Technique: Sweeping Attack & Blunt Technique: Dizzying Blow\\ \hline
+Conjuration & Novice Conjuration spells. & Apprentice Conjuration spells. & Journeyman Conjuration spells. & Expert Conjuration spells. & Master Conjuration spells.\\ \hline
+Destruction & Novice Destruction spells. & Apprentice Destruction spells. & Journeyman Destruction spells. & Expert Destruction spells. & Master Destruction spells.\\ \hline
+Hand-to-Hand & Unarmed technique: Power Attack & Unarmed technique II & Unarmed technique III & Unarmed technique IV & Unarmed technique V\\
+
+\end{tabular}
+
+\begin{tabular}{p{0.15\textwidth}|p{0.12\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.13\textwidth}|p{0.15\textwidth}}
+
+Skill & Novice & Apprentice & Journeyman & Expert & Master\\ \hline
+Heavy Armor & You can wear heavy armor. & Heavy armor no longer imposes penalty on Marksman rolls. & Heavy armor movement penalty is reduced by 5 ft. & Heavy armor movement penalty is reduced by 10 ft. & Heavy armor no longer imposes a movement penalty.\\ \hline
+Illusion & Novice illusions. & Apprentice illusions. & Journeyman illusions. & Expert illusions. & Master illusions.\\ \hline
+Light Armor & You can wear light armor. & ??? & Light armor movement penalty is reduced by 5 ft. & Light armor no longer imposes movement penalty. & Light armor weighs nothing when worn.\\ \hline
+Marksman & Archery technique I & archery technique II & archery technique III & archery technique IV & archery technique V\\ \hline
+Mercantile & You can buy and sell goods. & You can invest 500 gold into a shop; investment permanently makes the vendor a fence for stolen goods. & You can sell any type of item to any vendor. & Invested shops permanently have an additional 500 gold available for bartering. & All shops have an additional 500 gold available for bartering (stacks with expert).\\ \hline
+Mysticism & Novice Mysticism spells. & Apprentice Mysticism spells. & Journeyman Mysticism spells. & Expert Mysticism spells. & Master Mysticism spells.\\
+
+\end{tabular}
+
+\begin{tabular}{p{0.15\textwidth}|p{0.12\textwidth}|p{0.15\textwidth}|p{0.15\textwidth}|p{0.13\textwidth}|p{0.15\textwidth}}
+
+Skill & Novice & Apprentice & Journeyman & Expert & Master\\ \hline
+Restoration & Novice Restoration spells. & Apprentice Restoration spells. & Journeyman Restoration spells. & Expert Restoration spells. & Master Restoration spells.\\ \hline
+Security & Can pick Very Easy locks. & Can pick Easy locks. & Can pick Average locks. & Can pick Hard locks. & Can pick Very Hard locks.\\ \hline
+Sneak & Ranged sneak attacks deal double damage; one-handed sneak attacks deal quadruple damage. & Ranged sneak attacks deal triple damage; one-handed sneak attacks deal 6x damage. & Dagger sneak attacks deal 8x damage. & You may move your full movement while sneaking. & Sneak attacks ignore armor.\\ \hline
+Speechcraft & Can bribe NPCs to increase disposition. & Can attempt 4 Speechcraft checks in the same conversation. & Disposition losses from failures are halved. & Bribes cost half as much. & Once per day, guarantee an extreme success on a single check.\\
+
+\end{tabular}
+
+\chapter{Equipment}
 
 \end{document}
