@@ -1,121 +1,121 @@
 \contentsline {chapter}{\numberline {1}Basic Gameplay}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Roleplaying}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Making a Roll}{10}{section.1.2}
+\contentsline {section}{\numberline {1.2}Making a Roll}{9}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Levels of Success}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Opposed Rolls}{11}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Bonus and Penalty Dice}{11}{subsection.1.2.3}
-\contentsline {subsubsection}{Multiple Bonuses and Penalties}{12}{section*.4}
-\contentsline {section}{\numberline {1.3}Non-Integer Values}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.2}Opposed Rolls}{10}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Bonus and Penalty Dice}{10}{subsection.1.2.3}
+\contentsline {subsubsection}{Multiple Bonuses and Penalties}{11}{section*.4}
+\contentsline {section}{\numberline {1.3}Non-Integer Values}{11}{section.1.3}
 \contentsline {chapter}{\numberline {2}Character Creation}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}What do all the numbers mean?}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}Choose a Race.}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Altmer (High Elf)}{14}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Argonian}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Bosmer (Wood Elf)}{16}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Breton}{17}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Dunmer (Dark Elf)}{18}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Imperial}{19}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Khajiit}{20}{subsection.2.2.7}
-\contentsline {subsection}{\numberline {2.2.8}Nord}{21}{subsection.2.2.8}
-\contentsline {subsection}{\numberline {2.2.9}Orc}{22}{subsection.2.2.9}
-\contentsline {subsection}{\numberline {2.2.10}Redguard}{23}{subsection.2.2.10}
-\contentsline {section}{\numberline {2.3}Choose a Birthsign.}{24}{section.2.3}
-\contentsline {section}{\numberline {2.4}Choose a class.}{31}{section.2.4}
-\contentsline {section}{\numberline {2.5}Derive Attributes.}{42}{section.2.5}
-\contentsline {section}{\numberline {2.6}Calculate Skill Points.}{42}{section.2.6}
-\contentsline {chapter}{\numberline {3}Skills}{43}{chapter.3}
-\contentsline {section}{\numberline {3.1}Skill List}{44}{section.3.1}
-\contentsline {section}{\numberline {3.2}Mastery Perks}{45}{section.3.2}
-\contentsline {chapter}{\numberline {4}Combat}{51}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Order of Combat}{52}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Surprise}{52}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Your Turn}{52}{subsection.4.1.2}
-\contentsline {subsubsection}{Bonus Actions}{53}{section*.50}
-\contentsline {subsection}{\numberline {4.1.3}Other Actions}{53}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Making an Attack}{54}{section.4.2}
-\contentsline {section}{\numberline {4.3}Movement in Combat}{54}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hazards and Penalties}{55}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Mounted Combat}{55}{section.4.4}
-\contentsline {section}{\numberline {4.5}Underwater Combat}{55}{section.4.5}
-\contentsline {section}{\numberline {4.6}Death and Healing}{56}{section.4.6}
-\contentsline {chapter}{\numberline {5}Equipment \& Combat Techniques}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Glossary of Weapon Properties}{57}{section.5.1}
-\contentsline {section}{\numberline {5.2}Combat Techniques}{59}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Common Techniques}{59}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Weapons \& Skill-Based Combat Techniques}{61}{subsection.5.2.2}
-\contentsline {subsubsection}{Blade}{61}{section*.53}
-\contentsline {subsubsection}{Blunt}{62}{section*.54}
-\contentsline {subsubsection}{Hand-to-Hand Techniques}{64}{section*.55}
-\contentsline {subsubsection}{Archery}{64}{section*.56}
-\contentsline {section}{\numberline {5.3}Armors \& Shields}{67}{section.5.3}
-\contentsline {section}{\numberline {5.4}Scrolls \& Staves}{68}{section.5.4}
-\contentsline {section}{\numberline {5.5}Improvised Weapons}{68}{section.5.5}
-\contentsline {section}{\numberline {5.6}Silver Weapons}{69}{section.5.6}
-\contentsline {section}{\numberline {5.7}Adventuring Gear}{69}{section.5.7}
-\contentsline {chapter}{\numberline {6}Spellcasting}{75}{chapter.6}
-\contentsline {section}{\numberline {6.1}Spellcasting Formulas}{76}{section.6.1}
-\contentsline {section}{\numberline {6.2}Spell Properties}{76}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Spell Attacks}{77}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Schools of Magic}{78}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Alteration}{78}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Conjuration}{79}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Destruction}{79}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Illusion}{80}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Mysticism}{81}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Restoration}{82}{subsection.6.3.6}
-\contentsline {section}{\numberline {6.4}Learning New Spells}{82}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Spellmaking}{83}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Crafting}{85}{chapter.7}
-\contentsline {section}{\numberline {7.1}Alchemy}{85}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Potion or Poison?}{86}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Alchemy Apparatuses}{86}{subsection.7.1.2}
-\contentsline {subsubsection}{Mortar and Pestle}{87}{section*.63}
-\contentsline {subsubsection}{Retort}{88}{section*.65}
-\contentsline {subsubsection}{Calcinator}{88}{section*.67}
-\contentsline {subsubsection}{Alembic}{88}{section*.69}
-\contentsline {subsubsection}{Using Multiple Apparatuses}{89}{section*.71}
-\contentsline {subsubsection}{Selling Potions}{89}{section*.72}
-\contentsline {section}{\numberline {7.2}Blacksmithing}{89}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Requirements}{90}{subsection.7.2.1}
-\contentsline {section}{\numberline {7.3}Enchanting}{90}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Requirements}{90}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Soul Gems}{91}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Weapon Enchantments}{92}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Worn Enchantments}{93}{subsection.7.3.4}
-\contentsline {chapter}{\numberline {8}Adventuring and Downtime}{95}{chapter.8}
-\contentsline {section}{\numberline {8.1}Leveling Up}{95}{section.8.1}
-\contentsline {section}{\numberline {8.2}Encumbrance}{96}{section.8.2}
-\contentsline {section}{\numberline {8.3}Travel}{96}{section.8.3}
-\contentsline {section}{\numberline {8.4}Resting}{97}{section.8.4}
-\contentsline {section}{\numberline {8.5}Survival}{97}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Food}{98}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Water}{98}{subsection.8.5.2}
-\contentsline {section}{\numberline {8.6}Vision}{98}{section.8.6}
-\contentsline {section}{\numberline {8.7}Lockpicking}{98}{section.8.7}
-\contentsline {section}{\numberline {8.8}Traps}{99}{section.8.8}
-\contentsline {section}{\numberline {8.9}Different Types of Movement}{99}{section.8.9}
-\contentsline {subsection}{\numberline {8.9.1}Climbing and Swimming}{99}{subsection.8.9.1}
-\contentsline {subsection}{\numberline {8.9.2}Jumping}{99}{subsection.8.9.2}
-\contentsline {subsection}{\numberline {8.9.3}Falling}{99}{subsection.8.9.3}
-\contentsline {section}{\numberline {8.10}Social Interaction}{100}{section.8.10}
-\contentsline {section}{\numberline {8.11}Downtime}{100}{section.8.11}
-\contentsline {subsection}{\numberline {8.11.1}Lifestyle Expenses}{100}{subsection.8.11.1}
-\contentsline {subsection}{\numberline {8.11.2}Work}{101}{subsection.8.11.2}
-\contentsline {section}{\numberline {8.12}Research}{101}{section.8.12}
-\contentsline {section}{\numberline {8.13}Disease}{102}{section.8.13}
-\contentsline {section}{\numberline {8.14}Conditions}{102}{section.8.14}
-\contentsline {subsection}{\numberline {8.14.1}Blinded}{102}{subsection.8.14.1}
-\contentsline {subsection}{\numberline {8.14.2}Calmed}{103}{subsection.8.14.2}
-\contentsline {subsection}{\numberline {8.14.3}Charmed}{103}{subsection.8.14.3}
-\contentsline {subsection}{\numberline {8.14.4}Deafened}{103}{subsection.8.14.4}
-\contentsline {subsection}{\numberline {8.14.5}Exhausted}{103}{subsection.8.14.5}
-\contentsline {subsection}{\numberline {8.14.6}Frenzied}{104}{subsection.8.14.6}
-\contentsline {subsection}{\numberline {8.14.7}Frightened}{104}{subsection.8.14.7}
-\contentsline {subsection}{\numberline {8.14.8}Grappled}{104}{subsection.8.14.8}
-\contentsline {subsection}{\numberline {8.14.9}Incapacitated}{104}{subsection.8.14.9}
-\contentsline {subsection}{\numberline {8.14.10}Invisible}{104}{subsection.8.14.10}
-\contentsline {subsection}{\numberline {8.14.11}Paralyzed}{104}{subsection.8.14.11}
-\contentsline {subsection}{\numberline {8.14.12}Poisoned}{104}{subsection.8.14.12}
-\contentsline {subsection}{\numberline {8.14.13}Prone}{105}{subsection.8.14.13}
-\contentsline {subsection}{\numberline {8.14.14}Recoiled (AKA Staggered)}{105}{subsection.8.14.14}
-\contentsline {subsection}{\numberline {8.14.15}Unconscious}{105}{subsection.8.14.15}
+\contentsline {subsection}{\numberline {2.2.3}Bosmer (Wood Elf)}{15}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Breton}{16}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Dunmer (Dark Elf)}{17}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Imperial}{18}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Khajiit}{18}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Nord}{19}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}Orc}{20}{subsection.2.2.9}
+\contentsline {subsection}{\numberline {2.2.10}Redguard}{21}{subsection.2.2.10}
+\contentsline {section}{\numberline {2.3}Choose a Birthsign.}{21}{section.2.3}
+\contentsline {section}{\numberline {2.4}Choose a class.}{29}{section.2.4}
+\contentsline {section}{\numberline {2.5}Derive Attributes.}{40}{section.2.5}
+\contentsline {section}{\numberline {2.6}Calculate Skill Points.}{40}{section.2.6}
+\contentsline {chapter}{\numberline {3}Skills}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Skill List}{42}{section.3.1}
+\contentsline {section}{\numberline {3.2}Mastery Perks}{43}{section.3.2}
+\contentsline {chapter}{\numberline {4}Combat}{49}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Order of Combat}{49}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Surprise}{50}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Your Turn}{50}{subsection.4.1.2}
+\contentsline {subsubsection}{Bonus Actions}{50}{section*.50}
+\contentsline {subsection}{\numberline {4.1.3}Other Actions}{50}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Making an Attack}{51}{section.4.2}
+\contentsline {section}{\numberline {4.3}Movement in Combat}{51}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hazards and Penalties}{52}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Mounted Combat}{52}{section.4.4}
+\contentsline {section}{\numberline {4.5}Underwater Combat}{52}{section.4.5}
+\contentsline {section}{\numberline {4.6}Death and Healing}{52}{section.4.6}
+\contentsline {chapter}{\numberline {5}Equipment \& Combat Techniques}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Glossary of Weapon Properties}{55}{section.5.1}
+\contentsline {section}{\numberline {5.2}Combat Techniques}{56}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Common Techniques}{57}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Weapons \& Skill-Based Combat Techniques}{58}{subsection.5.2.2}
+\contentsline {subsubsection}{Blade}{58}{section*.53}
+\contentsline {subsubsection}{Blunt}{59}{section*.54}
+\contentsline {subsubsection}{Hand-to-Hand Techniques}{60}{section*.55}
+\contentsline {subsubsection}{Archery}{60}{section*.56}
+\contentsline {section}{\numberline {5.3}Armors \& Shields}{62}{section.5.3}
+\contentsline {section}{\numberline {5.4}Scrolls \& Staves}{62}{section.5.4}
+\contentsline {section}{\numberline {5.5}Improvised Weapons}{63}{section.5.5}
+\contentsline {section}{\numberline {5.6}Silver Weapons}{63}{section.5.6}
+\contentsline {section}{\numberline {5.7}Adventuring Gear}{64}{section.5.7}
+\contentsline {chapter}{\numberline {6}Spellcasting}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Spellcasting Formulas}{69}{section.6.1}
+\contentsline {section}{\numberline {6.2}Spell Properties}{70}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Spell Attacks}{71}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Schools of Magic}{71}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Alteration}{71}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Conjuration}{73}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Destruction}{73}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Illusion}{74}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Mysticism}{74}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Restoration}{75}{subsection.6.3.6}
+\contentsline {section}{\numberline {6.4}Learning New Spells}{75}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Spellmaking}{76}{subsection.6.4.1}
+\contentsline {chapter}{\numberline {7}Crafting}{77}{chapter.7}
+\contentsline {section}{\numberline {7.1}Alchemy}{77}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Potion or Poison?}{77}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Alchemy Apparatuses}{78}{subsection.7.1.2}
+\contentsline {subsubsection}{Mortar and Pestle}{79}{section*.63}
+\contentsline {subsubsection}{Retort}{80}{section*.65}
+\contentsline {subsubsection}{Calcinator}{80}{section*.67}
+\contentsline {subsubsection}{Alembic}{80}{section*.69}
+\contentsline {subsubsection}{Using Multiple Apparatuses}{80}{section*.71}
+\contentsline {subsubsection}{Selling Potions}{80}{section*.72}
+\contentsline {section}{\numberline {7.2}Blacksmithing}{81}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Requirements}{81}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Enchanting}{82}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Requirements}{82}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Soul Gems}{82}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Weapon Enchantments}{83}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Worn Enchantments}{83}{subsection.7.3.4}
+\contentsline {chapter}{\numberline {8}Adventuring and Downtime}{85}{chapter.8}
+\contentsline {section}{\numberline {8.1}Leveling Up}{85}{section.8.1}
+\contentsline {section}{\numberline {8.2}Encumbrance}{86}{section.8.2}
+\contentsline {section}{\numberline {8.3}Travel}{86}{section.8.3}
+\contentsline {section}{\numberline {8.4}Resting}{86}{section.8.4}
+\contentsline {section}{\numberline {8.5}Survival}{87}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Food}{87}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Water}{87}{subsection.8.5.2}
+\contentsline {section}{\numberline {8.6}Vision}{87}{section.8.6}
+\contentsline {section}{\numberline {8.7}Lockpicking}{87}{section.8.7}
+\contentsline {section}{\numberline {8.8}Traps}{88}{section.8.8}
+\contentsline {section}{\numberline {8.9}Different Types of Movement}{88}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Climbing and Swimming}{88}{subsection.8.9.1}
+\contentsline {subsection}{\numberline {8.9.2}Jumping}{88}{subsection.8.9.2}
+\contentsline {subsection}{\numberline {8.9.3}Falling}{88}{subsection.8.9.3}
+\contentsline {section}{\numberline {8.10}Social Interaction}{88}{section.8.10}
+\contentsline {section}{\numberline {8.11}Downtime}{89}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}Lifestyle Expenses}{89}{subsection.8.11.1}
+\contentsline {subsection}{\numberline {8.11.2}Work}{89}{subsection.8.11.2}
+\contentsline {section}{\numberline {8.12}Research}{89}{section.8.12}
+\contentsline {section}{\numberline {8.13}Disease}{90}{section.8.13}
+\contentsline {section}{\numberline {8.14}Conditions}{90}{section.8.14}
+\contentsline {subsection}{\numberline {8.14.1}Blinded}{90}{subsection.8.14.1}
+\contentsline {subsection}{\numberline {8.14.2}Calmed}{91}{subsection.8.14.2}
+\contentsline {subsection}{\numberline {8.14.3}Charmed}{91}{subsection.8.14.3}
+\contentsline {subsection}{\numberline {8.14.4}Deafened}{91}{subsection.8.14.4}
+\contentsline {subsection}{\numberline {8.14.5}Exhausted}{91}{subsection.8.14.5}
+\contentsline {subsection}{\numberline {8.14.6}Frenzied}{91}{subsection.8.14.6}
+\contentsline {subsection}{\numberline {8.14.7}Frightened}{91}{subsection.8.14.7}
+\contentsline {subsection}{\numberline {8.14.8}Grappled}{91}{subsection.8.14.8}
+\contentsline {subsection}{\numberline {8.14.9}Incapacitated}{92}{subsection.8.14.9}
+\contentsline {subsection}{\numberline {8.14.10}Invisible}{92}{subsection.8.14.10}
+\contentsline {subsection}{\numberline {8.14.11}Paralyzed}{92}{subsection.8.14.11}
+\contentsline {subsection}{\numberline {8.14.12}Poisoned}{92}{subsection.8.14.12}
+\contentsline {subsection}{\numberline {8.14.13}Prone}{92}{subsection.8.14.13}
+\contentsline {subsection}{\numberline {8.14.14}Recoiled (AKA Staggered)}{92}{subsection.8.14.14}
+\contentsline {subsection}{\numberline {8.14.15}Unconscious}{92}{subsection.8.14.15}
