@@ -1,0 +1,75 @@
+\chapter{Spellcasting}
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{flamespell.png}
+\end{figure}
+
+Magic in the Elder Scrolls generally refers to the manipulation of magicka (magical energy) to alter the world in some way. Individual castings of this to achieve effects are known as spells. It can come from many sources, such as starlight, the Divines or Daedric Princes. All the races of Tamriel have some magical aptitude, though those of elvish blood are more naturally gifted.
+
+There are many different forms of magic in Elder Scrolls and they have all been handled differently across the franchise. This game's magic system is based primarily on that from Elder Scrolls IV: Oblivion. Player characters are able to draw on the magicka in their bodies to cast spells, which are governed by the schools of Alteration, Conjuration, Destruction, Illusion, Mysticism and Restoration. Alchemy is also a magic skill in that it involves the manipulation of magical properties in alchemical reagents to create potions and poisons; it will be covered in the next chapter.
+
+Spellcasting is somewhat similar to combat techniques in that it costs points, has the potential to give you greater damage and special effects, and gives you access to gradually more powerful abilities as your skills increase. However, it is different from techniques in that it uses your magicka instead of stamina; spells that deal damage also do not get attribute- or skill-based bonus damage. Spells have static values for their magnitude instead of rolls and so are often more reliable than weapon attacks. Also, increased skill in one of the magic schools reduces the cost of spells in that school, meaning you will have access to far more powerful spells as you level up.
+
+\section{Spellcasting Formulas}
+
+For convenience, here are the max magicka, magicka regeneration and spell range formulas again:
+
+\begin{itemize}
+	\item $Magicka=2*Intelligence$
+	\item $Range=2*Willpower$
+	\item $Regeneration=(5+0.1Willpower)\%$ of max magicka per round
+\end{itemize}
+
+\section{Spell Properties}
+
+Each spell costs an action to cast in combat and comes with the following properties:
+
+\begin{itemize}
+	\item Effect: What does the spell do?
+	\item Target: How the spell's effect is applied (at range, on touch, or on self).
+	\item Base Magicka Cost: How much magicka you need to spend to cast this spell.
+	\item Magnitude: How big the spell's effect is (e.g. damage dealt, health restored).
+	\item Duration: How long the spell's effect lasts.
+	\item Area: The radius in which spell effects apply.
+	\item School: Which skill is used with the spell.
+	\item Skill Level: What skill level is required to cast the spell (Novice, Apprentice, Journeyman, Expert or Master).
+	\item Action: Does the spell cost an action, or can it be cast as a reaction or bonus action?
+\end{itemize}
+
+Note that not all spells have each property. Most spells do not have an area effect but rather act on a single target, for example. Some spells have multiple effects, each with a different duration and sometimes different targeting styles.
+
+Your skill affects the magicka cost of a spell according to the following formula:
+
+$Cost=Base Cost*(1.4-0.012*Skill)$
+
+Outside of battle or other time-critical situations, magicka costs will be ignored because it is assumed you have enough time to regenerate your magicka reserves. If you are ambushed or otherwise threatened immediately after casting a spell outside of battle, the GM may rule that you must deduct the spell cost from your current magicka in the first round. Also, casting outside of combat still requires that you have enough max magicka to cast the spell, and skill requirements still apply.
+
+\subsection{Spell Attacks}
+
+If the target of your spell is unwilling, you will have to make a spell attack roll. Touch spells count as melee attacks, and ranged spells count as ranged attacks; both categories are affected by the bonus and penalty conditions that might normally affect an attack roll. In order to make the attack roll, make sure your target is within range and roll against the skill that governs the spell. If you are successful, the target is hit and the spell takes effect.
+
+If you have a free hand, you may cast another spell of Apprentice level or lower as a bonus action. You must have the magicka to do so, and you must make a spell attack roll if applicable. All the normal rules for spellcasting apply.
+
+Note that spells make noise when cast and so are difficult to use undetected. Journeymen of Illusion may cast any spell silently.
+
+\input{input/chapter6/schools.tex}
+
+\section{Learning New Spells}
+
+In the Elder Scrolls, there is no limit on how many spells you can know. You can learn new spells by finding spell vendors in towns or in Mages Guild buildings, reading spell tomes, or even crafting your own spells if you can gain access to a rare spellmaking altar.
+
+\subsection{Spellmaking}
+
+If you have access to a spellmaking altar, you can make your own spells. Such altars are exceedingly rare; for example, the only spellmaking altars in Cyrodiil are found at the Arcane University of the Imperial City, which can only be accessed by Mages Guild affiliates who have undergone a certain level of training. Once you have acquired access, however, use the following rules to create a spell:
+
+\begin{itemize}
+	\item You get to choose the spell's name.
+	\item To give the spell a certain effect, you must already know a spell with that effect. This includes race and birthsign powers.
+	\item Multiple effects may be added to a single spell.
+	\item For each effect, you choose the targeting type, magnitude, duration and area.
+	\item Calculate the magicka cost using the following formula: $Total Cost=0.1Base Cost*0.15Area*Duration*Magnitude^{1.28}$
+\end{itemize}
+
+If the spell is ranged, multiply the result by 1.5 to get the final base cost. Duration is in rounds. Ask your GM for information on the base costs of effects or use the following link: \url{http://en.uesp.net/wiki/Oblivion:Spell_Effects}
+
+Once you have these things determined, you must perform a 2-hour ritual to create the spell. The materials for the ritual cost a total of three times the magicka cost of the spell.
