@@ -3,6 +3,7 @@
 *.synctex.gz
 *.log
 *.out
+*.toc
 
 # Don't push the pdf on git, it's too big
 *.pdf

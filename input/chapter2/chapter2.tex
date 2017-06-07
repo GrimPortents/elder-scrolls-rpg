@@ -1,0 +1,67 @@
+\chapter{Character Creation}
+Creating a character in the Elder Scrolls Tabletop RPG is a multi-step process with many options for customization. You can choose from 10 races, each with different attributes and traits. You also choose the astrological sign under which your character was born, granting further bonuses. On top of that, there are also 21 skills and 21 classes --- you can even make your own custom class! The choices can seem overwhelming, so let's take this one step at a time.
+
+\section{Stats}
+
+As you create your character, you will assign numbers that represent your character's physical and mental abilities. These numbers are called \textit{attributes,} and they come in two kinds: primary and derived. Primary attributes have an indirect effect on your character, and they are largely determined by your race and birthsign. They are as follows:
+
+\begin{figure}[h]
+\rowcolors{2}{gray!25}{white}
+\begin{tabular}[h]{p{0.15\textwidth}p{0.80\textwidth}}
+	\rowcolor{gray!25}
+	\textbf{Strength} & Muscle power. Determines your melee damage bonus.\\
+	\textbf{Intelligence} & Mental acuity. Determines your maximum magicka.\\
+	\textbf{Willpower} & Strength of will. Determines magicka regeneration rate and spell range.\\
+	\textbf{Agility} & Coordination. Determines your ranged weapon damage bonus.\\
+	\textbf{Speed} & Rate of bodily movement. Determines your per-round movement speed.\\
+	\textbf{Endurance} & Physical health and toughness. Determines your maximum health.\\
+	\textbf{Personality} & Charm and beauty. Sets NPCs' initial opinions of you.\\
+\end{tabular}
+\end{figure}
+
+Your derived attributes have a more direct impact on your character.
+\begin{figure}[h]
+\rowcolors{2}{gray!25}{white}
+\begin{tabular}[h]{p{0.4\textwidth}p{0.55\textwidth}}
+	\rowcolor{gray!25}
+	\textbf{Health} & General condition of your body.\\
+	\textbf{Magicka} & Stored magical energy.\\
+	\textbf{Stamina} & Ability to endure physical exertion.\\
+	\textbf{Magicka Regeneration Rate} & How quickly your magicka recovers.\\
+	\textbf{Stamina Regeneration Rate} & How quickly your stamina recovers.\\
+	\textbf{Movement} & Your per-round rate of movement.\\
+	\textbf{Damage Bonus} & The damage you add to attacks.\\
+\end{tabular}
+\end{figure}
+
+The Luck attribute from Oblivion is not used, for simplicity. Now that you understand attributes, it is time to start building your character.
+
+\input{input/chapter2/races.tex}
+\input{input/chapter2/birthsigns.tex}
+\input{input/chapter2/classes.tex}
+
+\section{Derived Attributes}
+Now is the time to calculate your derived attributes. There are a lot of things to keep track of here. Be sure to write them down so you don't have to do equations in your head all the time throughout gameplay.
+\begin{itemize}
+	\item $\text{Health}=2*\text{Endurance}$.
+	\item $\text{Magicka}=2*\text{Intelligence}$.
+	\item $\text{Stamina}=\text{Strength}+\text{Willpower}+\text{Agility}+\text{Endurance}$.
+	\item You recover $(5+0.1*\text{Willpower})\%$ of your magicka per round.
+	\item Your carry weight is equal to five times your Strength.
+	\item Your spell range is equal to double your Willpower in feet. 
+\end{itemize}
+
+Your movement and damage bonuses are given by the following table.
+\begin{center}
+\rowcolors{2}{gray!25}{white}
+\begin{tabular}{llccccc}
+\rowcolor{gray!50}
+Derived Attribute & Attribute & 1--24 & 25--49 & 50--74 & 74--99 & 100\\
+Damage Bonus (Melee) & Strength & +0 & +1 & +2 & +3 & +4 \\
+Damage Bonus (Ranged) & Agility & +0 & +1 & +2 & +3 & +4 \\
+Movement & Speed & 20 ft & 30 ft & 40 ft & 50 ft & 60 ft\\
+\end{tabular}
+\end{center}
+
+\section{Skill Points}
+By now, you should have all the information you need to finalize your skill points. The base value of any given skill is 5, so be sure to add all relevant bonuses to that. For example, a Breton Mage begins with a Conjuration of 5(base)+10(racial)+5(magic class)+20(major skill)=40. To learn more about what exactly the skills do, move on to chapter 3. In any case, your character is now complete! Congratulations!
