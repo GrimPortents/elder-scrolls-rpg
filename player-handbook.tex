@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{tcolorbox}
 \usepackage{longtable}
+\usepackage{amsmath}
 
 \graphicspath{{images/}}
 
@@ -323,7 +324,7 @@ The people of Tamriel mark their calendars by the passage of constellations over
 \end{longtable}
 
 \section{Classes}
-There are a grand total of 21 classes in the Elder Scrolls Tabletop RPG, each with a unique combination of favored skills and attributes. You may wish to become more acquainted with what the skills mean in order to make an informed decision about which class you choose.
+There are a grand total of 21 classes in the Elder Scrolls Tabletop RPG, each with a unique combination of favored skills and attributes. You may wish to become more acquainted with what the skills mean in order to make an informed decision about which class you choose.\\
 
 A class consists of 4 components:
 \begin{enumerate}
@@ -333,323 +334,203 @@ A class consists of 4 components:
 	\item Seven major skills.
 \end{enumerate}
 
-All skills grouped under the chosen specialization get a +5 bonus. The two favored attributes gain a +5 bonus as well. The seven major skills gain a +20 bonus; the remaining 14 skills are defined as minor skills. If you wish to create a custom class, simply choose the four components on your own. You should look over the 21 existing classes, however --- odds are you'll find multiple appealing choices.\\
+All skills grouped under the chosen specialization get a +5 bonus. The two favored attributes gain a +5 bonus as well. The seven major skills gain a +20 bonus; the remaining 14 skills are defined as minor skills. If you wish to create a custom class, simply choose the four components on your own. You should look over the 21 existing classes, however -- odds are you'll find multiple appealing choices.\\
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Acrobat\\
+\begin{longtable}{lm{0.6\textwidth}}
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Acrobat.png}} & 
+\textbf{\Large Acrobat}\newline
 
-The kind of person that uses agility and endurance to their advantage. Unafraid of jumping long distances.\\
+The kind of person that uses agility and endurance to their advantage. Unafraid of jumping long distances.\newline
 
-Specialization: Stealth.\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Agility, Endurance\newline
+\textbf{Skills}: Acrobatics, Blade, Block, Marksman, Security, Sneak, Speechcraft\\
 
-Attributes: Agility, Endurance.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Agent.png}} & \textbf{\Large Agent}\newline
 
-Skills: Acrobatics, Blade, Block, Marksman, Security, Sneak, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Acrobat.png}}
-\end{figure}
+Charming when they can be seen, and nearly invisible when in shadow.\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Agent\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Agility, Personality\newline
+\textbf{Skills}: Acrobatics, Illusion, Marksman, Mercantile, Security, Sneak, Speechcraft\\
 
-Charming when they can be seen, and nearly invisible when in shadow.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Archer.png}} & \textbf{\Large Archer}\newline
 
-Specialization: Stealth.\\
+A marksman, adept at combat at great distances. Able to take down most foes before they have a chance to draw sword.\newline
 
-Attributes: Agility, Personality.\\
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Agility, Strength\newline
+\textbf{Skills}: Armorer, Blade, Blunt, Hand-to-Hand, Light Armor, Marksman, Sneak\\
 
-Skills: Acrobatics, Illusion, Marksman, Mercantile, Security, Sneak, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Agent.png}}
-\end{figure}
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Assassin.png}} & \textbf{\Large Assassin}\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Archer\\
+Nimble and quiet, they move in darkness to strike at the unsuspecting. Locks hold no doors shut for them.\newline
 
-A marksman, adept at combat at great distances. Able to take down most foes before they have a chance to draw sword.\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Intelligence, Speed\newline
+\textbf{Skills}: Acrobatics, Alchemy, Blade, Light Armor, Marksman, Security, Sneak\\
 
-Specialization: Combat.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Barbarian.png}} & \textbf{\Large Barbarian}\newline
 
-Attributes: Agility, Strength.\\
+Fearsome brutes who inspire fear and dread in the hearts of their enemies. Like a storm, swift and powerful. Finding little use for heavy armor, they rely on smashing their foes into the ground.\newline
 
-Skills: Armorer, Blade, Blunt, Hand-to-Hand, Light Armor, Marksman, Sneak.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Archer.png}}
-\end{figure}
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Speed, Strength\newline
+\textbf{Skills}: Armorer, Athletics, Blade, Block, Blunt, Hand-to-Hand, Light Armor\\
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Assassin\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Bard.png}} & \textbf{\Large Bard}\newline
 
-Nimble and quiet, they move in darkness to strike at the unsuspecting. Locks hold no doors shut for them.\\
+Intelligent and personable, they prefer to accomplish tasks with their words first, and sword second.\newline
 
-Specialization: Stealth.\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Intelligence, Personality\newline
+\textbf{Skills}: Alchemy, Blade, Block, Illusion, Light Armor, Mercantile, Speechcraft\\
 
-Attributes: Intelligence, Speed.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Battlemage.png}} & \textbf{\Large Battlemage}\newline
 
-Skills: Acrobatics, Alchemy, Blade, Light Armor, Marksman, Security, Sneak.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Assassin.png}}
-\end{figure}
+Able to resolve most conflicts with either spell or sword. They are a deadly mix of scholar and soldier.\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Barbarian\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Intelligence, Strength\newline
+\textbf{Skills}: Alchemy, Alteration, Blade, Blunt, Conjuration, Destruction, Mysticism\\
 
-Fearsome brutes who inspire fear and dread in the hearts of their enemies. Like a storm, swift and powerful. Finding little use for heavy armor, they rely on smashing their foes into the ground.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Crusader.png}} & \textbf{\Large Crusader}\newline
 
-Specialization: Combat.\\
+A combatant who wields the power of brute strength and medicinal knowledge. Cheating death after every fight, they rely on their keen knowledge of restoration to fight yet again.\newline
 
-Attributes: Speed, Strength.\\
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Strength, Willpower\newline
+\textbf{Skills}: Athletics, Blade, Blunt, Destruction, Hand-to-Hand, Heavy Armor, Restoration\\
 
-Skills: Armorer, Athletics, Blade, Block, Blunt, Hand-to-Hand, Light Armor.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Barbarian.png}}
-\end{figure}
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Healer.png}} & \textbf{\Large Healer}\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Bard\\
+Fighters of poison and illness. The ancient art of restoration is their ally, and the deadly art of destruction is their weapon.\newline
 
-Intelligent and personable, they prefer to accomplish tasks with their words first, and sword second.\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Personality, Willpower\newline
+\textbf{Skills}: Alchemy, Alteration, Destruction, Illusion, Mercantile, Restoration, Speechcraft\\
 
-Specialization: Stealth.\\
+\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Knight.png}} & \textbf{\Large Knight}\newline
 
-Attributes: Intelligence, Personality.\\
+The most noble of all combatants. Strong in body and in character.\newline
 
-Skills: Alchemy, Blade, Block, Illusion, Light Armor, Mercantile, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Bard.png}}
-\end{figure}
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Personality, Strength\newline
+\textbf{Skills}: Blade, Block, Blunt, Hand-to-Hand, Heavy Armor, Illusion, Speechcraft\\
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Battlemage\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Mageclass.png}} & \textbf{\Large Mage}\newline
 
-Able to resolve most conflicts with either spell or sword. They are a deadly mix of scholar and soldier.\\
+Preferring to use their extensive knowledge of all things magical, they wield a might more powerful than the sharpest blade.\newline
 
-Specialization: Magic.\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Intelligence, Willpower\newline
+\textbf{Skills}: Alchemy, Alteration, Conjuration, Destruction, Illusion, Mysticism, Restoration\\
 
-Attributes: Intelligence, Strength.\\
+\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Monk.png}} & \textbf{\Large Monk}\newline
 
-Skills: Alchemy, Alteration, Blade, Blunt, Conjuration, Destruction, Mysticism.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Battlemage.png}}
-\end{figure}
+Quick and cunning with the empty hand, they are strong in spirit. They prefer to solve conflict by arrow or by fist.\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Crusader\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Agility, Willpower\newline
+\textbf{Skills}: Acrobatics, Alteration, Athletics, Hand-to-Hand, Marksman, Security, Sneak\\
 
-A combatant who wields the power of brute strength and medicinal knowledge. Cheating death after every fight, they rely on their keen knowledge of restoration to fight yet again.\\
+\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Nightblade.png}} & \textbf{\Large Nightblade}\newline
 
-Specialization: Combat.\\
+Spell and shadow are their friends. By darkness they move with haste, casting magic to benefit their circumstances.\newline
 
-Attributes: Strength, Willpower.\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Speed, Willpower\newline
+\textbf{Skills}: Acrobatics, Alteration, Athletics, Blade, Destruction, Light Armor, Restoration\\
 
-Skills: Athletics, Blade, Blunt, Destruction, Hand-to-Hand, Heavy Armor, Restoration.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Crusader.png}}
-\end{figure}
+\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Pilgrim.png}} & \textbf{\Large Pilgrim}\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Healer\\
+Hearty folk, well-versed in the tomes of old. They profit in life by bartering in the market, or by persuading the weak-minded.\newline
 
-Fighters of poison and illness. The ancient art of restoration is their ally, and the deadly art of destruction is their weapon.\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Endurance, Personality\newline
+\textbf{Skills}: Armorer, Block, Blunt, Light Armor, Mercantile, Security, Speechcraft\\
 
-Specialization: Magic.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Rogue.png}} &
+\textbf{\Large Rogue}\newline
 
-Attributes: Personality, Willpower.\\
+They use speed in combat rather than brute force. Persuasive in conversation, their tongues are as sharp as blades.\newline
 
-Skills: Alchemy, Alteration, Destruction, Illusion, Mercantile, Restoration, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Healer.png}}
-\end{figure}
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Personality, Speed\newline
+\textbf{Skills}: Alchemy, Athletics, Blade, Block, Illusion, Light Armor, Mercantile\\
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Knight\\
 
-The most noble of all combatants. Strong in body and in character.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Scout.png}} &
+\textbf{\Large Scout}\newline
 
-Specialization: Combat.\\
+Preferring the rolling countryside to the city life, they are gifted with the ability to evade, guard and protect themselves with great proficiency.\newline
 
-Attributes: Personality, Strength.\\
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Endurance, Speed\newline
+\textbf{Skills}: Acrobatics, Alchemy, Armorer, Athletics, Blade, Block, Light Armor\\
 
-Skills: Blade, Block, Blunt, Hand-to-Hand, Heavy Armor, Illusion, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Knight.png}}
-\end{figure}
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Sorcerer.png}} & \textbf{\Large Sorcerer}\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Mage\\
+Besting the most well-equipped fighters, they rely on the spells of the mystic arts. Unique to these mages is the bodily stamina to be armed with the thickest armor.\newline
 
-Preferring to use their extensive knowledge of all things magical, they wield a might more powerful than the sharpest blade.\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Endurance, Intelligence\newline
+\textbf{Skills}: Alchemy, Alteration, Conjuration, Destruction, Heavy Armor, Mysticism, Restoration\\
 
-Specialization: Magic.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Spellsword.png}} & \textbf{\Large Spellsword}\newline
 
-Attributes: Intelligence, Willpower.\\
+More nimble and athletic than the sorcerer, and better suited for spell-casting than the knight, their attacks are unpredictable. Students of combat and magic.\newline
 
-Skills: Alchemy, Alteration, Conjuration, Destruction, Illusion, Mysticism, Restoration.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Mageclass.png}}
-\end{figure}
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Endurance, Willpower\newline
+\textbf{Skills}: Alteration, Blade, Block, Heavy Armor, Destruction, Illusion, Restoration\\
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Monk\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Thiefclass.png}} & \textbf{\Large Thief}\newline
 
-Quick and cunning with the empty hand, they are strong in spirit. They prefer to solve conflict by arrow or by fist.\\
+Profiting from the losses of others is their love. Able to be swift in shadow, and crafty in bartering. Locks are enemies, and lock-picks are their swords.\newline
 
-Specialization: Stealth.\\
+\textbf{Specialization}: Stealth\newline
+\textbf{Attributes}: Agility, Speed\newline
+\textbf{Skills}: Acrobatics, Light Armor, Marksman, Mercantile, Security, Sneak, Speechcraft\\
 
-Attributes: Agility, Willpower.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Warriorclass.png}} & \textbf{\Large Warrior}\newline
 
-Skills: Acrobatics, Alteration, Athletics, Hand-to-Hand, Marksman, Security, Sneak.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Monk.png}}
-\end{figure}
+Unafraid of light weaponry, they plow into the fray with little regard for injury. Masters of all melee tools, they put little faith in the magical arts.\newline
 
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Nightblade\\
+\textbf{Specialization}: Combat\newline
+\textbf{Attributes}: Endurance, Strength\newline
+\textbf{Skills}: Armorer, Athletics, Blade, Block, Blunt, Hand-to-Hand, Heavy Armor\\
 
-Spell and shadow are their friends. By darkness they move with haste, casting magic to benefit their circumstances.\\
+	\raisebox{-0.5\height}{\includegraphics[width=0.3\textwidth]{Witchhunter.png}} & \textbf{\Large Witchhunter}\newline
 
-Specialization: Magic.\\
+Swift on foot, and clever with spells, they use distance as their ally. Slower adversaries are fodder for their arrows.\newline
 
-Attributes: Speed, Willpower.\\
+\textbf{Specialization}: Magic\newline
+\textbf{Attributes}: Agility, Intelligence\newline
+\textbf{Skills}: Alchemy, Athletics, Conjuration, Destruction, Marksman, Mysticism, Security\\
+\end{longtable}
 
-Skills: Acrobatics, Alteration, Athletics, Blade, Destruction, Light Armor, Restoration.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Nightblade.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Pilgrim\\
-
-Hearty folk, well-versed in the tomes of old. They profit in life by bartering in the market, or by persuading the weak-minded.\\
-
-Specialization: Stealth.\\
-
-Attributes: Endurance, Personality.\\
-
-Skills: Armorer, Block, Blunt, Light Armor, Mercantile, Security, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Pilgrim.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Rogue\\
-
-They use speed in combat rather than brute force. Persuasive in conversation, their tongues are as sharp as blades.\\
-
-Specialization: Combat.\\
-
-Attributes: Personality, Speed.\\
-
-Skills: Alchemy, Athletics, Blade, Block, Illusion, Light Armor, Mercantile.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Rogue.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Scout\\
-
-Preferring the rolling countryside to the city life, they are gifted with the ability to evade, guard and protect themselves with great proficiency.\\
-
-Specialization: Combat.\\
-
-Attributes: Endurance, Speed.\\
-
-Skills: Acrobatics, Alchemy, Armorer, Athletics, Blade, Block, Light Armor.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Scout.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Sorcerer\\
-
-Besting the most well-equipped fighters, they rely on the spells of the mystic arts. Unique to these mages is the bodily stamina to be armed with the thickest armor.\\
-
-Specialization: Magic.\\
-
-Attributes: Endurance, Intelligence.\\
-
-Skills: Alchemy, Alteration, Conjuration, Destruction, Heavy Armor, Mysticism, Restoration.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Sorcerer.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Spellsword\\
-
-More nimble and athletic than the sorcerer, and better suited for spell-casting than the knight, their attacks are unpredictable. Students of combat and magic.\\
-
-Specialization: Magic.\\
-
-Attributes: Endurance, Willpower.\\
-
-Skills: Alteration, Blade, Block, Heavy Armor, Destruction, Illusion, Restoration.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Spellsword.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Thief\\
-
-Profiting from the losses of others is their love. Able to be swift in shadow, and crafty in bartering. Locks are enemies, and lock-picks are their swords.\\
-
-Specialization: Stealth.\\
-
-Attributes: Agility, Speed.\\
-
-Skills: Acrobatics, Light Armor, Marksman, Mercantile, Security, Sneak, Speechcraft.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Thiefclass.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Warrior\\
-
-Unafraid of light weaponry, they plow into the fray with little regard for injury. Masters of all melee tools, they put little faith in the magical arts.\\
-
-Specialization: Combat.\\
-
-Attributes: Endurance, Strength.\\
-
-Skills: Armorer, Athletics, Blade, Block, Blunt, Hand-to-Hand, Heavy Armor.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Warriorclass.png}}
-\end{figure}
-
-\begin{figure}[H]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=0.5\textwidth}}]{figure}[\FBwidth]
-{\caption*{Witchhunter\\
-
-Swift on foot, and clever with spells, they use distance as their ally. Slower adversaries are fodder for their arrows.\\
-
-Specialization: Magic.\\
-
-Attributes: Agility, Intelligence.\\
-
-Skills: Alchemy, Athletics, Conjuration, Destruction, Marksman, Mysticism, Security.}\label{fig:test}}
-{\includegraphics[width=0.45\textwidth]{Witchhunter.png}}
-\end{figure}
-
-\newpage
 \section{Derived Attributes}
 Now is the time to calculate your derived attributes. There are a lot of things to keep track of here. Be sure to write them down so you don't have to do equations in your head all the time throughout gameplay.
 \begin{itemize}
-	\item $Health=2*Endurance$.
-	\item $Magicka=2*Intelligence$.
-	\item $Stamina=Strength+Willpower+Agility+Endurance$.
-	\item You recover $(5+0.1Willpower)\%$ of your magicka per round.
+	\item $\text{Health}=2*\text{Endurance}$.
+	\item $\text{Magicka}=2*\text{Intelligence}$.
+	\item $\text{Stamina}=\text{Strength}+\text{Willpower}+\text{Agility}+\text{Endurance}$.
+	\item You recover $(5+0.1*\text{Willpower})\%$ of your magicka per round.
 	\item Your carry weight is equal to five times your Strength.
 	\item Your spell range is equal to double your Willpower in feet. 
-	\item Your movement and damage bonuses are given by the following table.
 \end{itemize}
 
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+Your movement and damage bonuses are given by the following table.
+\begin{center}
+\begin{tabular}{|l|l|c|c|c|c|c|}
 \hline
-Attribute & 1--24 & 25--49 & 50--74 & 74--99 & 100\\ \hline
-Strength & +0 melee & +1 melee & +2 melee & +3 melee & +4 melee\\ \hline
-Agility & +0 ranged & +1 ranged & +2 ranged & +3 ranged & +4 ranged\\ \hline
-Speed & 20 ft & 30 ft & 40 ft & 50 ft & 60 ft\\ \hline
-
-\end{tabularx}\\~\\
+Derived Attribute & Attribute & 1--24 & 25--49 & 50--74 & 74--99 & 100\\ \hline
+Damage Bonus (Melee) & Strength & +0 & +1 & +2 & +3 & +4 \\ \hline
+Damage Bonus (Ranged) & Agility & +0 & +1 & +2 & +3 & +4 \\ \hline
+Movement & Speed & 20 ft & 30 ft & 40 ft & 50 ft & 60 ft\\ \hline
+\end{tabular}
+\end{center}
 
 \section{Skill Points}
 By now, you should have all the information you need to finalize your skill points. The base value of any given skill is 5, so be sure to add all relevant bonuses to that. For example, a Breton Mage begins with a Conjuration of 5(base)+10(racial)+5(magic class)+20(major skill)=40. To learn more about what exactly the skills do, move on to chapter 3. In any case, your character is now complete! Congratulations!
