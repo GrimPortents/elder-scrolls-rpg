@@ -1,5 +1,4 @@
 \chapter{Combat}
-
 The ESTRPG features a round-based combat system not unlike that of \textit{Dungeons \& Dragons}. The rules for combat and movement will seem very familiar to anyone who has played it before. However, some rules are different, so be sure to pay attention! This chapter describes the rules needed for characters to engage in combat.
 
 \begin{figure}[H]
@@ -7,30 +6,29 @@ The ESTRPG features a round-based combat system not unlike that of \textit{Dunge
 \end{figure}
 
 \section{The Order of Combat}
-
 A round is defined as 6 seconds, and each combatant gets \textit{movement} and an \textit{action} on their turn. Turn order is decided by the Speed attribute. If two Speed attributes are the same, turn order is then decided among the tied combatants by their Agility attributes. If both of those are a tie, the GM decides turn order among NPCs and the players decide turn order among PCs. If there is a tie with both attributes among both NPCs and PCs, then flip a coin.
 
 \subsection{Surprise}
-
 Sometimes, you (or your enemy!) may have the chance to attack a target who is unaware. If a combatant is surprised, they do not get to react to the attack or take a turn until the next round. Surprise is determined by success on a Sneak check, which can be modified by several conditions. The following is gives examples, but is not exhaustive:
 
-\begin{tabular}{p{0.3\textwidth}|p{0.3\textwidth}}
-
-Bonus & Penalty\\ \hline
+\begin{center}
+\begin{tabular}{p{0.5\textwidth}p{0.5\textwidth}}
+	Bonuses
 	\begin{itemize}
 		\item In concealment or cover
 		\item Disguised
 		\item Beneficial spells
 	\end{itemize}
 	&
+	Penalties
 	\begin{itemize}
 		\item Target suspects you
 		\item Wearing heavy armor
 		\item Target has locating spell
 		\item Moving in difficult terrain
 	\end{itemize}\\
-
 \end{tabular}
+\end{center}
 
 Note that not all conditions may stack. Use your judgement for what makes narrative sense.
 
@@ -44,49 +42,46 @@ Some actions may be listed as "bonus actions." This means that you may take this
 In addition to attacks and the abilities listed in chapters 5 and 6, the following count as an action that you may perform on your turn:
 
 \begin{itemize}
-	\item Disengage: Your movement this turn cannot provoke opportunity attacks (see \textit{section 5.2.1}).
-	\item Evade: You focus exclusively on avoiding harm. Attacks against you (including ranged attacks) gain a penalty die. Does not stack with fast movement penalty dice.
-	\item Help: You attempt to aid an ally. If they perform a non-combat check before their next turn, they gain a bonus die. If they make an attack against a creature within 5 feet of you, it gets a bonus die.
-	\item Hide: You attempt to escape the notice of enemies. Make a Sneak check. On a success, you manage to slip away, at least for the moment. This does not mean enemies have absolutely no idea where you are, however; you cannot hide from a creature that can see you, and if you make noise, you give away your position.
-	\item Prepare: You declare an action to be executed when a certain event occurs before your next turn.
-	\item Sprint (\textit{20 Stamina}): You can forego your action to gain double your movement bonus. While you are sprinting, ranged attacks against you gain a penalty die. Argonians and apprentices of Athletics can take this action while swimming.
+	\item \textbf{Disengage}: Your movement this turn cannot provoke opportunity attacks (see \textit{section 5.2.1}).
+	\item\textbf{Evade}: You focus exclusively on avoiding harm. Attacks against you (including ranged attacks) gain a penalty die. Does not stack with fast movement penalty dice.
+	\item \textbf{Help}: You attempt to aid an ally. If they perform a non-combat check before their next turn, they gain a bonus die. If they make an attack against a creature within 5 feet of you, it gets a bonus die.
+	\item \textbf{Hide}: You attempt to escape the notice of enemies. Make a Sneak check. On a success, you manage to slip away, at least for the moment. This does not mean enemies have absolutely no idea where you are, however; you cannot hide from a creature that can see you, and if you make noise, you give away your position.
+	\item \textbf{Prepare}: You declare an action to be executed when a certain event occurs before your next turn.
+	\item \textbf{Sprint} (\textit{20 Stamina}): You can forego your action to gain double your movement bonus. While you are sprinting, ranged attacks against you gain a penalty die. Argonians and apprentices of Athletics can take this action while swimming.
 \end{itemize}
 
 \section{Making an Attack}
 
-To make an attack, simply spend your action for the round and declare a target. The target must be within range (5 ft for melee weapons, 10 ft for Reach melee weapons; ranged attacks have specific rules as described in chapter 5) and not be behind total cover. Ranged weapons use the skill check rules described in section 5.2.2. Melee attacks automatically succeed unless the target chooses to react by blocking or dodging. (It is assumed even a novice can hit a stationary target.) If they do, make a skill check with your relevant weapon skill and compare it to the target's success level on their Block or Acrobatics check. If your success level is higher, you have successfully hit the target and may roll your damage. Ties are decided according to which reaction the target chose to take: blocks and dodges win on a tie, but fighting back loses on a tie.
+To make an attack, simply spend your action for the round and declare a target. The target must be within range (5 ft for melee weapons, 10 ft for Reach melee weapons; ranged attacks have specific rules as described in chapter 5) and not be behind total cover. Ranged weapons use the skill check rules described in section 5.2.2. Melee attacks automatically succeed unless the target chooses to react by blocking or dodging. (It is assumed even a novice can hit a stationary target.) If they do, make a skill check with your relevant weapon skill and compare it to the target's success level on their Block or Acrobatics check. If your success level is higher, you have successfully hit the target and may roll your damage. Ties are decided according to which reaction the target chose to take: blocks and dodges win on a tie, but fighting back loses on a tie.\\
 
-Please note: attacks with spells can be either melee or ranged attacks. Touch spells require an attack roll that obeys all the rules of melee combat, and ranged spells require an attack roll that obeys all the rules of ranged combat. Whatever bonus or penalty conditions might affect such rolls will also affect spell attacks.
+\begin{tcolorbox}
+	\textbf{Note}: attacks with spells can be either melee or ranged attacks. Touch spells require an attack roll that obeys all the rules of melee combat, and ranged spells require an attack roll that obeys all the rules of ranged combat. Whatever bonus or penalty conditions might affect such rolls will also affect spell attacks.
+\end{tcolorbox}
 
 \section{Movement in Combat}
-
 Movement is the total distance you can move in a round without exerting yourself. It is determined by your Speed attribute, as described in section 2.5. On your turn, you can move up to that distance. Your movement may be split before and after your action if you wish, and you do not have to use your full movement. For example, you may move 10 feet, attack, then move 10 more feet if your movement is at least 20 feet. You get different max movements for different types of movement (e.g. walking and swimming). The distance you move by any means is subtracted from each movement type simultaneously. For example, if your walking movement is 30 ft and your swimming movement is 15, and you walk 10 feet then begin to swim, you can only swim an additional 5 feet that turn.
 
 \subsection{Hazards and Penalties}
-Some conditions may change your movement. Armor reduces your movement speed by a certain amount particular to the armor. Being prone requires an extra foot of movement for every foot you crawl (e.g. crawling 10 feet costs 20 feet of movement). Standing up from the prone position costs half of your current max movement. For example, if your movement is normally 30 feet and your armor imposes -10 to your movement, then your current max movement is 20 feet. Standing up would thus cost 10 feet of movement.
+Some conditions may change your movement. Armor reduces your movement speed by a certain amount particular to the armor. Being prone requires an extra foot of movement for every foot you crawl (e.g. crawling 10 feet costs 20 feet of movement). Standing up from the prone position costs half of your current max movement. For example, if your movement is normally 30 feet and your armor imposes -10 to your movement, then your current max movement is 20 feet. Standing up would thus cost 10 feet of movement.\\
 
-Some terrain types also slow movement because they are hazardous to traverse, such as a frozen river, rubble, a floor littered with broken glass, low furniture, steep stairs, deep snow, shallow swampland or undergrowth. These terrain types cost an additional foot of movement for every foot moved, and this effect stacks with crawling.
+Some terrain types also slow movement because they are hazardous to traverse, such as a frozen river, rubble, a floor littered with broken glass, low furniture, steep stairs, deep snow, shallow swampland or undergrowth. These terrain types cost an additional foot of movement for every foot moved, and this effect stacks with crawling.\\
 
 While sneaking, you can only move half your max movement.
 
 \section{Mounted Combat}
-
 Sometimes, you may engage in combat while riding a mount. In this case, you control the mount's turn and use its movement speed instead of yours. Its place in the turn order is the same as yours, calculated by your Speed. You may mount or dismount for half of your movement. If an effect moves your mount against your will while you are riding it, you must make an Athletics or Acrobatics check (your choice) to avoid falling off. If you fail, you land on the ground within 5 feet, prone. You must make the same check if you are targeted by effects that knock you prone. Mounts may only use their action to Evade or Sprint, though they can react with Dodge.
 
 \section{Underwater Combat}
-
 Fighting underwater comes with unique challenges that can seriously inhibit anyone not experienced in it or otherwise adapted to aquatic environents. Any combatants without a defined swim speed have a penalty die on all melee attacks with blunt weapons. Ranged weapon attacks automatically miss beyond base range and gain a penalty die otherwise. Spell attack range is halved. Creatures fully submersed in water gain 50\% resistance to fire damage. Unless you have water breathing, you can only hold your breath underwater for a number of minutes equal to one plus 5\% of your Endurance. After this time limit, you have a number of rounds equal to 5\% of your Endurance to reach the surface before your health drops to 0.
 
 \section{Death and Healing}
-
-\begin{wrapfigure}{l}{0.6\textwidth}
+\begin{wrapfigure}{l}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{victory.png}
 \end{wrapfigure}
+If your health drops to 0, you lose consciousness and are now dying. Gaining any amount of health will stabilize you and allow you to wake up. Restoration spells and healing potions will do so, but they must be administered by someone who is not incapacitated. Some items will allow you to stabilize a dying character but not heal them.\\
 
-If your health drops to 0, you lose consciousness and are now dying. Gaining any amount of health will stabilize you and allow you to wake up. Restoration spells and healing potions will do so, but they must be administered by someone who is not incapacitated. Some items will allow you to stabilize a dying character but not heal them.
+Dying characters who have not been stabilized are now in the hands of fate. Each turn, roll percentile. On a 50 or lower, mark a success. On a 51 or higher, mark a failure. A total of three successes means you are stable. A total of three failures means you are permanently dead. If you roll a 96 or higher, mark two failures; a roll of 5 or lower immediately grants 1 hit point.\\
 
-Dying characters who have not been stabilized are now in the hands of fate. Each turn, roll percentile. On a 50 or lower, mark a success. On a 51 or higher, mark a failure. A total of three successes means you are stable. A total of three failures means you are permanently dead. If you roll a 96 or higher, mark two failures; a roll of 5 or lower immediately grants 1 hit point.
-
-If an attack reduces your health to 0 and there is damage remaining, you immediately die if the remainder is greater than or equal to half your max health. For example, if you have 30 of 60 health left and an attack does 60 damage, it reduces you to 0 health, and the remaining 30 damage equals your half your max health, killing you instantly.
+If an attack reduces your health to 0 and there is damage remaining, you immediately die if the remainder is greater than or equal to half your max health. For example, if you have 30 of 60 health left and an attack does 60 damage, it reduces you to 0 health, and the remaining 30 damage equals your half your max health, killing you instantly.\\
 
 If your stamina goes into the negative, you pass out, but are not dying. You regain stamina at a rate of 60 per round until your stamina is positive again and you regain consciousness. Be careful not to overexert yourself!
