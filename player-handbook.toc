@@ -4,13 +4,13 @@
 \contentsline {subsection}{\numberline {1.2.1}Levels of Success}{10}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Opposed Rolls}{10}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Bonus and Penalty Dice}{10}{subsection.1.2.3}
-\contentsline {subsubsection}{Multiple Bonuses and Penalties}{11}{section*.4}
+\contentsline {subsubsection}{Multiple Bonuses and Penalties}{11}{section*.5}
 \contentsline {section}{\numberline {1.3}Non-Integer Values}{11}{section.1.3}
 \contentsline {chapter}{\numberline {2}Character Creation}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}What do all the numbers mean?}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}Choose a Race.}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Altmer (High Elf)}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Argonian}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Argonian}{14}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Bosmer (Wood Elf)}{15}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Breton}{16}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Dunmer (Dark Elf)}{17}{subsection.2.2.5}
@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {4.1}The Order of Combat}{49}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Surprise}{50}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Your Turn}{50}{subsection.4.1.2}
-\contentsline {subsubsection}{Bonus Actions}{50}{section*.50}
+\contentsline {subsubsection}{Bonus Actions}{50}{section*.53}
 \contentsline {subsection}{\numberline {4.1.3}Other Actions}{50}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Making an Attack}{51}{section.4.2}
 \contentsline {section}{\numberline {4.3}Movement in Combat}{51}{section.4.3}
@@ -43,10 +43,10 @@
 \contentsline {section}{\numberline {5.2}Combat Techniques}{56}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Common Techniques}{57}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Weapons \& Skill-Based Combat Techniques}{58}{subsection.5.2.2}
-\contentsline {subsubsection}{Blade}{58}{section*.53}
-\contentsline {subsubsection}{Blunt}{59}{section*.54}
-\contentsline {subsubsection}{Hand-to-Hand Techniques}{60}{section*.55}
-\contentsline {subsubsection}{Archery}{60}{section*.56}
+\contentsline {subsubsection}{Blade}{58}{section*.56}
+\contentsline {subsubsection}{Blunt}{59}{section*.57}
+\contentsline {subsubsection}{Hand-to-Hand Techniques}{60}{section*.58}
+\contentsline {subsubsection}{Archery}{60}{section*.59}
 \contentsline {section}{\numberline {5.3}Armors \& Shields}{62}{section.5.3}
 \contentsline {section}{\numberline {5.4}Scrolls \& Staves}{62}{section.5.4}
 \contentsline {section}{\numberline {5.5}Improvised Weapons}{63}{section.5.5}
@@ -69,12 +69,12 @@
 \contentsline {section}{\numberline {7.1}Alchemy}{77}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Potion or Poison?}{77}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Alchemy Apparatuses}{78}{subsection.7.1.2}
-\contentsline {subsubsection}{Mortar and Pestle}{79}{section*.63}
-\contentsline {subsubsection}{Retort}{80}{section*.65}
-\contentsline {subsubsection}{Calcinator}{80}{section*.67}
-\contentsline {subsubsection}{Alembic}{80}{section*.69}
-\contentsline {subsubsection}{Using Multiple Apparatuses}{80}{section*.71}
-\contentsline {subsubsection}{Selling Potions}{80}{section*.72}
+\contentsline {subsubsection}{Mortar and Pestle}{79}{section*.66}
+\contentsline {subsubsection}{Retort}{80}{section*.68}
+\contentsline {subsubsection}{Calcinator}{80}{section*.70}
+\contentsline {subsubsection}{Alembic}{80}{section*.72}
+\contentsline {subsubsection}{Using Multiple Apparatuses}{80}{section*.74}
+\contentsline {subsubsection}{Selling Potions}{80}{section*.75}
 \contentsline {section}{\numberline {7.2}Blacksmithing}{81}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Requirements}{81}{subsection.7.2.1}
 \contentsline {section}{\numberline {7.3}Enchanting}{82}{section.7.3}
